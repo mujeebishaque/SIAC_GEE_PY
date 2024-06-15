@@ -5,8 +5,6 @@ from SIAC_PY import AC_processor as siac_processor
 current_dir = Path(__file__).resolve().parent
 
 # prosail = require('./Prosail')
-# siac_processor = require('C/\Users\Dell\OneDrive\Desktop\PS_Work\wimex-im-cdsm-cesbio/SIAC///AC_processor')
-
 def inv_prosail(image):
     image     = ee.Image(image)
     # geom  = image.geometry()
